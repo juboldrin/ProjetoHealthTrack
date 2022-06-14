@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <!-- link do meu CSS -->
+    <link rel="stylesheet" href="./assets/CSS/style.css">
+
+    <title>Health Track Cadastro</title>
+</head>
+
+<body class="cad-bg">
+    <!-- header da página -->
+    <header class="header-top-b">
+        <nav>
+            <ul>
+                <li><a href="index.html" class="header-title-b">Health Track</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- fim do header da página -->
+    <div class="cad-hero">
+        <h3 class="hero-text">Cadastro</h3>
+        <form method="post" action="">
+            <fieldset class="grupo">
+                <div class="campo">
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" required>
+                </div>
+                <div class="campo">
+                    <label for="sobrenome">Sobrenome:</label>
+                    <input type="text" id="sobrenome">
+                </div>
+            </fieldset>
+            <div class="campo">
+                <label for="email">Email:</label>
+                <input type="email" id="email" required>
+            </div>
+            <fieldset class="grupo">
+                <div class="campo">
+                    <label for="altura">Altura:</label>
+                    <input type="number" id="altura">
+                </div>
+                <div class="campo">
+                    <label for="peso0">Peso atual:</label>
+                    <input type="number" id="peso0">
+                </div>
+            </fieldset>
+            <div class="campo">
+                <label for="dtnasc">Data de nascimento:</label>
+                <input type="date" id="dtnasc" required>
+            </div>
+            <div class="campo">
+                <label for="sexo">Sexo:</label>
+                <input type="radio" name="sexo" value="masculino" id="sexo">Masculino
+                <input type="radio" name="sexo" value="feminino" id="sexo">Feminino
+            </div>
+            <fieldset class="grupo">
+                <div class="campo">
+                    <label for="senha">Senha:</label>
+                    <input type="password" id="senha" required>
+                </div>
+                <div class="campo">
+                    <label for="confsenha">Confirmar senha:</label>
+                    <input type="password" id="confsenha" required>
+                </div>
+            </fieldset>
+            <button class="btn" type="submit">Enviar</button>
+        </form>
+        <div class="hero-text">
+            <a href="login.html">Já sou cadastrado</a>
+        </div>
+
+        <script src="./assets/js/scrollb.js"></script>
+</body>
+
+</html>
