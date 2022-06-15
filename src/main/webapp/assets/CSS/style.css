@@ -1,0 +1,609 @@
+/* Chamada do Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&display=swap');
+
+/* reset CSS mini */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 16px;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+p{
+    text-align: justify;
+}
+
+/************* header link ***************/
+.header-link{
+    color: #fff;
+}
+/************* fim header link ***************/
+
+ul,ol{
+    list-style: none;
+}
+
+/************* header ***************/
+
+.header-top{
+    width: 100%;
+    height: 80px;
+    padding: 5px 20px;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.header-top-title{
+    font-size: 2.0rem;
+    font-weight: 900;
+}
+
+.header-nav ul{
+    display: flex;
+}
+
+.header-nav li{
+    margin: 0 10px;
+}
+
+.header-nav a{
+    font-size: 0.8rem;
+    font-weight: 800;
+    transition: 0.5s;
+}
+
+.header-nav a:hover{
+    font-size: 1.2rem;
+    color:azure;
+}
+
+.active-scroll{
+    background-color: rgba(92, 1, 1, 0.911);
+}
+
+.active-scroll-b{
+    background-color: rgba(39, 143, 204, 0.911);;
+}
+
+/************* fim header ***************/
+
+/************* hero ***************/
+.hero{
+    width: 100%;
+    height: 100vh;
+    padding: 100px 10px;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(168, 0, 0, 0.15)),
+    url(../Images/capa2-reduzido.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: top;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.hero-title{
+    margin-bottom: 2rem;
+    font-size: 5vmin;
+    font-weight: 700; 
+}
+
+.hero-text{
+    margin-bottom: 2rem;
+    font-size: 4vmin;
+    font-weight: 700;
+    
+}
+
+.hero-link{
+    border: 1px solid #000;
+    padding: 2vmin 4vmin;
+    background-color: transparent;
+    border-radius: 70px;
+    font-size: 3vmin;
+    font-weight: 900;
+    text-transform: uppercase;
+    transition: .7s;
+    color: #fff;
+}
+.hero-link:hover {
+    background-color: rgb(165, 165, 165);
+    color: navy;
+}
+/************* fim hero ***************/
+
+.btn{
+    border: 1px solid #dc143c;
+    margin-bottom: 0.5rem;
+    padding: 1.5rem, 5rem;
+    background-color: #dc143c;
+    border-radius: 70px;
+    font-size: 2.0vmin;
+    font-weight: 600;
+    text-transform: uppercase;
+    transition: .5s;
+    color: #fff;
+}
+
+.line{
+    width: 40%;
+    height: 4px;
+    background-color: red;
+    border-radius: 10px;
+    margin-bottom: 10px;    
+}
+
+/************* exercicios ***************/
+/* Center align the text within the three columns below the carousel */
+.marketing .col-lg-4 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+.marketing h2 {
+  font-weight: 400;
+}
+/* rtl:begin:ignore */
+.marketing .col-lg-4 p {
+  margin-right: .75rem;
+  margin-left: .75rem;
+}
+
+.exercicios{
+    width: 90%;
+    min-height: 100vh;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 40px 0 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.exercicios-title{
+    width: 80%;    
+    margin-bottom: 10px;
+    font-size: 5vmin;
+    text-align: center;
+}
+
+.exercicios-text{
+    width: 80%;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 3vmin;
+    text-align: justify;
+    justify-content: space-between;
+}
+.exercicios-list{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+
+.exercicios-list-item{
+    margin-top: 30px;
+    width: 50%;
+}
+
+.exercicios-list-item h3{
+    font-size: 3vmin;
+    margin: 20px 0;
+}
+
+.exercicios-list-item p{
+    font-size: 2.5vmin;
+    margin: 20px 10px;
+}
+
+.exercicios-list img{
+    width: 80%;
+    margin-top: 30px;
+}
+
+/************* fim exercicios ***************/
+
+/************* alimentação ***************/
+.alimentacao{
+    width: 90%;
+    min-height: 80vh;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 40px 0 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+        
+}
+
+.alimentacao-title{
+    margin-bottom: 10px;
+    font-size: 5vmin;
+    text-align: center;
+}
+
+.alimentacao-text{
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 3vmin;
+    text-align: justify;
+    justify-content: space-between;
+}
+
+.alimentacao-item{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.alimentacao-img img{
+    width: 80%;
+    margin-top: 30px;
+}
+
+/************* fim alimentação ***************/
+
+/************* sua evolução ***************/
+.evolucao{
+    width: 90%;
+    min-height: 80vh;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 40px 0 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+        
+}
+
+.evolucao-title{
+    margin-bottom: 10px;
+    font-size: 5vmin;
+    text-align: center;
+}
+
+.evolucao-text{
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 3vmin;
+    text-align: justify;
+    justify-content: space-between;
+}
+
+.evolucao-item{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.evolucao-img img{
+    width: 80%;
+    margin-top: 30px;
+}
+
+/************* fim sua evolução ***************/
+/************* fim da página inicial ***************/
+
+/************************************** outras paginas **************************************/
+.header-top-b{
+    width: 100%;
+    height: 80px;
+    padding: 5px 20px;
+    color: #fff;
+    font-weight: 900;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.header-title-b{
+    color:#000;
+    font-size: 2.0rem;
+    font-weight: 900;
+}
+
+.login-bg{
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    background-image: url(../Images/capa-reduzida.jpg);
+    background-image: cover;
+    background-position: 50%;
+    background-repeat: no-repeat;
+}
+
+.login-bg body::before{
+    content:'';
+    background-color: rgb(0,0,0,.5);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.header-login{
+    padding: 20px 50px;
+    position: relative;
+    z-index: 10;
+}
+
+.login-body {
+    padding: 40px;
+    z-index: 90;
+    position: relative;
+    max-width: 450px;
+    height: 475px;
+    margin-left: 50%;
+    background-color: rgb(0,0,0,.75);
+    border-radius: 10px;
+    box-sizing: border-box;
+    transform: translateX(-50%)
+}
+
+.login-body h2{
+    font-size: 2.5rem;
+    color: #fff;
+    font-weight: 700;
+    margin-top: 0;
+}
+
+.login-body input{
+    height: 50px;
+    width: 100%;
+    color:#fff;
+    background-color: rgb(90, 90, 90);
+    border: none;
+    border-radius: 5px;
+    padding-left: 15px;
+    box-sizing: border-box;
+    outline: none;
+}
+
+.login-body input:hover{
+    background-color: rgb(194, 194, 194);
+}
+
+.input-box{
+    margin-bottom: 25px;
+}
+
+.input-box label{
+    color:#fff;
+    font-size: 1.25rem;
+}
+
+.login-body button{
+    height: 50px;
+    width: 100%;
+    color: #fff;
+    background-color: #950202;
+    border-radius: 3px;
+    font-weight: 700;
+    font-size: 1.5rem;
+    border: none;
+    margin-bottom: 10px;
+}
+
+.cadastro-link{
+    margin-top: 20px;
+    border: none;
+    width: 100%;
+    padding: 1vmin 2vmin;
+    background-color: #950202;
+    border-radius: 20px;
+    transition: .5s;
+    font-size: 1.5;
+}
+
+/************* Inicio Cadastro *************/
+.cad-hero{
+    width: 100%;
+    height: 100%;
+    padding: 100px 10px;
+    color: #000;
+    text-align: start;
+}
+
+.cad-bg{
+    background-color: #22D3EE;    
+}
+
+input, button{
+    border-radius: 10px;
+}
+
+.campo{
+    margin-bottom: 1rem;
+    color:#353535c4;
+    display: block;
+}
+
+fieldset.grupo .campo{
+    float: left;
+    margin-right: 10px;
+}
+
+.campo input[type="text"], .campo input[type="email"], .campo input[type="password"], .campo input[type="number"], .campo input[type="date"]{
+    padding: 0.2rem;
+    border: 1px solid #000;
+    box-shadow: 2px 2px 2px rgb(165, 165, 165, rgba(0, 0, 0, 0.2));
+    display: block;
+    margin-bottom: 1rem;
+}
+
+.campo input:focus{
+    background-color: #e4f8acf3;
+}
+
+
+.grupo:before, .grupo:after {
+    display: table;
+}
+
+.grupo:after{
+    clear:both;
+}
+
+/************************************** paginas pós login **************************************/
+/*aar = area de acesso restrito*/
+
+/************************* evolucao *************************/
+
+.evo-bg{
+    padding: 0px;
+    margin: 0;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    background-color: #22D3EE;
+
+}
+.space{
+    height: 80px;
+    top: 0;
+    left: 0;
+}
+
+.header-aar{
+    width: 100%;
+    height: 80px;
+    padding: 5px 20px;
+    color: #000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.header-title-aar{
+    font-size: 2.0rem;
+    font-weight: 900;
+}
+
+.header-nav-aar ul{
+    display: flex;
+}
+
+.header-nav-aar li{
+    margin: 0 10px;
+}
+
+.header-nav-aar a{
+    font-size: 0.8rem;
+    font-weight: 800;
+    transition: 0.5s;
+}
+
+.header-nav-aar a:hover{
+    font-size: 1.2rem;
+    color: #000;
+}
+
+.header-link-aar{
+    color: #000;
+}
+
+.section-aar{
+    width: 70%;
+    margin: 20px;
+    padding: 40px 0 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+        
+}
+
+.title-aar{
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+.table-evo{
+    background-color: rgb(168, 168, 168);
+    align-items: center;
+    justify-content: center;
+}
+
+.table-celula{
+    padding: 5px;
+    border: 1px solid #000;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.btn-excluir{
+    background-color: #b30000a2;
+    font-weight: 900;
+    color:#000000;
+}
+
+.form-signin {
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin: auto;
+}
+
+.form-signin .checkbox {
+  font-weight: 400;
+}
+
+.form-signin .form-floating:focus-within {
+  z-index: 2;
+}
+
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
