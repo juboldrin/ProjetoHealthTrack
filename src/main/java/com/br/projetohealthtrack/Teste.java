@@ -1,12 +1,12 @@
-package br.com.fiap;
+package com.br.projetohealthtrack;
 
-import br.com.fiap.alimento.Alimento;
-import br.com.fiap.alimento.AlimentoDAO;
-import br.com.fiap.atividade.Atividade;
-import br.com.fiap.atividade.AtividadeDAO;
-import br.com.fiap.medidasusuario.*;
-import br.com.fiap.pressoaarterial.Pressao;
-import br.com.fiap.pressoaarterial.PressaoDAO;
+import com.br.projetohealthtrack.alimento.Alimento;
+import com.br.projetohealthtrack.alimento.AlimentoDAO;
+import com.br.projetohealthtrack.atividade.Atividade;
+import com.br.projetohealthtrack.atividade.AtividadeDAO;
+import com.br.projetohealthtrack.medidasusuario.*;
+import com.br.projetohealthtrack.pressoaarterial.Pressao;
+import com.br.projetohealthtrack.pressoaarterial.PressaoDAO;
 
 import java.time.LocalDate;
 import java.util.List;

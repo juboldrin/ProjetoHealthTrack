@@ -1,4 +1,4 @@
-package br.com.fiap.pressoaarterial;
+package com.br.projetohealthtrack.pressoaarterial;
 
 import java.time.LocalDate;
 

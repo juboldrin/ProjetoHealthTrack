@@ -1,4 +1,4 @@
-package br.com.fiap.atividade;
+package com.br.projetohealthtrack.atividade;
 
 import java.time.LocalDate;
 

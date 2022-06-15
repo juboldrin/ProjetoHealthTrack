@@ -1,6 +1,7 @@
-package br.com.fiap.pressoaarterial;
+package com.br.projetohealthtrack.pressoaarterial;
 
-import br.com.fiap.db.DBManager;
+
+import com.br.projetohealthtrack.db.DBManager;
 
 import java.sql.Date;
 import java.sql.*;

@@ -1,6 +1,7 @@
-package br.com.fiap.atividade;
+package com.br.projetohealthtrack.atividade;
 
-import br.com.fiap.db.DBManager;
+
+import com.br.projetohealthtrack.db.DBManager;
 
 import java.sql.Date;
 import java.sql.*;

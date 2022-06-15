@@ -1,4 +1,4 @@
-package br.com.fiap.medidasusuario;
+package com.br.projetohealthtrack.medidasusuario;
 
 import java.time.LocalDate;
 

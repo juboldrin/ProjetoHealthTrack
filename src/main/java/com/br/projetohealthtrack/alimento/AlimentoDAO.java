@@ -1,4 +1,4 @@
-package br.com.fiap.alimento;
+package com.br.projetohealthtrack.alimento;
 
 import br.com.fiap.db.DBManager;
 

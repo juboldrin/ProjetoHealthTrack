@@ -1,4 +1,4 @@
-package br.com.fiap.db;
+package com.br.projetohealthtrack.db;
 
 import java.sql.*;
 

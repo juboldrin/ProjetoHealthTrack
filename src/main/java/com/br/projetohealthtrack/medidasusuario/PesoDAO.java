@@ -1,6 +1,8 @@
-package br.com.fiap.medidasusuario;
+package com.br.projetohealthtrack.medidasusuario;
 
-import br.com.fiap.db.DBManager;
+
+
+import com.br.projetohealthtrack.db.DBManager;
 
 import java.sql.Date;
 import java.sql.*;
